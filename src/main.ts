@@ -22,8 +22,8 @@ export default class NoticeHistory extends Plugin {
 		this.log.load(this.settings.persist ? data.entries : [], this.settings.max);
 
 		this.addRibbonIcon("bell", "Notification history", () => this.open());
-		this.addCommand({ id: "open", name: "Show notification history", callback: () => this.open() });
-		this.addCommand({ id: "clear", name: "Clear notification history", callback: () => { this.log.clear(); this.changed(); } });
+		this.addCommand({ id: "open", name: "Show history", callback: () => this.open() });
+		this.addCommand({ id: "clear", name: "Clear history", callback: () => { this.log.clear(); this.changed(); } });
 		this.addSettingTab(new HistoryTab(this.app, this));
 		this.drawStatus();
 
@@ -89,7 +89,7 @@ export default class NoticeHistory extends Plugin {
 	}
 
 	async persist() {
-		await this.saveData({ settings: this.settings, entries: this.settings.persist ? this.log.entries : [] } as Data);
+		await this.saveData({ settings: this.settings, entries: this.settings.persist ? this.log.entries : [] });
 	}
 
 	drawStatus() {

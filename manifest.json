@@ -1,9 +1,9 @@
 {
 	"id": "notice-history",
 	"name": "Notification History",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"minAppVersion": "1.4.0",
-	"description": "Keeps every pop-up notification from Obsidian and your plugins, so you can read the ones that vanished too fast. Bell in the status bar, ribbon and command.",
+	"description": "Keeps every pop-up notification from the app and your plugins, so you can read the ones that vanished too fast. Bell in the status bar, ribbon and command.",
 	"author": "Prometheus",
 	"authorUrl": "https://prometheus-maker.github.io/",
 	"isDesktopOnly": false

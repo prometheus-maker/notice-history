@@ -9,7 +9,7 @@ This plugin keeps them.
 ![The history window: newest first, with time, a repeat count and a copy button per notification](docs/history.png)
 
 Every notification that Obsidian or any plugin shows is saved with its time. Open the list with the bell in the
-status bar, the bell in the ribbon (that one works on mobile), or the command **Show notification history**.
+status bar, the bell in the ribbon (that one works on mobile), or the command **Notification History: Show history**.
 
 - Newest first. The same message shown again within 10 seconds is counted (`×2`) instead of repeated.
 - Notifications that change while on screen, like progress messages, are saved with their last text.
