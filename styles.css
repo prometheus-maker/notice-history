@@ -1,0 +1,15 @@
+/* Notification history */
+.nh-status { display: flex; align-items: center; gap: 4px; }
+.nh-status svg { width: 14px; height: 14px; }
+.nh-badge { font-size: var(--font-ui-smaller); background: var(--interactive-accent); color: var(--text-on-accent); border-radius: 8px; padding: 0 5px; line-height: 1.4; }
+.nh-modal { width: min(720px, 92vw); max-width: 92vw; }
+.nh-bar { display: flex; gap: 8px; margin-bottom: 12px; }
+.nh-bar .nh-search { flex: 1 1 auto; min-width: 0; width: auto; }
+.nh-bar button { flex: none; }
+.nh-list { max-height: 60vh; overflow-y: auto; }
+.nh-row { padding: 8px 0; border-bottom: 1px solid var(--background-modifier-border); }
+.nh-meta { display: flex; align-items: center; gap: 8px; color: var(--text-muted); font-size: var(--font-ui-smaller); }
+.nh-meta .nh-copy { margin-left: auto; }
+.nh-count { color: var(--text-accent); }
+.nh-text { white-space: pre-wrap; user-select: text; overflow-wrap: anywhere; margin-top: 2px; }
+.nh-empty { color: var(--text-muted); padding: 16px 0; }
