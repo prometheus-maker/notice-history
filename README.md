@@ -38,6 +38,10 @@ It records notifications from the moment it loads, so the very first ones at sta
 plugins load, are missed. It reads them from the screen, so text inside a notification is saved but buttons are not.
 Tested on Obsidian 1.15 desktop (Linux); not yet on mobile.
 
+## Same plugin for other apps
+
+[SiYuan](https://github.com/prometheus-maker/siyuan-notification-history), [Logseq](https://github.com/prometheus-maker/logseq-notification-history).
+
 ## Licence
 
 MIT
